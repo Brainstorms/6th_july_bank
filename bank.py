@@ -502,19 +502,6 @@ main_screen()
 win.mainloop()
 
 
-# In[50]:
-
-
-import re
-mob=input("enter mob=")
-match=re.fullmatch("[6-9][0-9]{9}",mob)
-if match==None:
-    print("invalid")
-else:
-    print("valid")
-
-
-# In[ ]:
 
 
 
